@@ -1,0 +1,5 @@
+manager/workCondition
+manager/*.o
+player/*.o
+manager/*.d
+player/*.d

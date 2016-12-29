@@ -1,5 +1,5 @@
 CPPFLAGS= -std=c++11 -g -Wall
-CPP= g++
+CPP= c++
 
 COMMONOBJECTS= players.o
 RANDOMOBJECTS= ${COMMONOBJECTS} randomPlayer.o

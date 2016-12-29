@@ -1,4 +1,4 @@
-#include <string.h> // new
+#include <string.h>
 #include "samurai.hpp"
 
 const int homeX[2][3] = {{0, 0, 7}, {14, 14, 7}};
@@ -97,12 +97,7 @@ void Player::initCommunication(char* logPath) {
 	command.replace(pos, 2, progPath);
       }
     }
-	/*
-    system(command.c_str());
-    exit(0);
-	*/
     // system(command.c_str());
-	// add from
     vector<string> commandArgs;
     parseCommand(command, commandArgs);
     int nArgs = commandArgs.size();
@@ -116,7 +111,6 @@ void Player::initCommunication(char* logPath) {
     execvp(commandArgs[0].c_str(), args);
     perror(command.c_str());
     exit(-1);
-	// add to
   } else {
     ofstream* out = new ofstream(toAIpath);
     if (!out->good())

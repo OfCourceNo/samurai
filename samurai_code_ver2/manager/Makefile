@@ -1,5 +1,5 @@
 CPPFLAGS= -pthread -std=c++11 -g
-CPP= g++
+CPP= c++
 
 OBJECTS= main.o battlefield.o game.o \
 	samurai.o errors.o log.o teestream.o

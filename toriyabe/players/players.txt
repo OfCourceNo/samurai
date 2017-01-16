@@ -4,3 +4,4 @@ players
 3 "no check" nonCheckingPlayer $1
 4 timeout timeoutPlayer $1
 5 "too active" tooActivePlayer $1
+6 self selfPlayer $1

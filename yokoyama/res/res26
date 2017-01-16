@@ -1,0 +1,583 @@
+{
+  "title": "",
+  "playerNames": [ "greedy", "yokoyama"],
+  "initialResponseTimes": [ 0, 0 ],
+  "plays": [
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 7, 4 ],
+      "territories": [ 1, 1, 1, 1, 1, 1 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 7, 4 ],
+      "territories": [ 1, 1, 1, 1, 1, 7 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 1, 9 ],
+      "territories": [ 1, 6, 1, 1, 1, 7 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 3, 9 ],
+      "territories": [ 1, 6, 1, 1, 6, 7 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 1, 9 ],
+      "territories": [ 5, 6, 1, 1, 6, 7 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 3, 9 ],
+      "territories": [ 5, 6, 1, 5, 6, 7 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 7, 4 ],
+      "territories": [ 5, 6, 1, 5, 6, 7 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 7, 4 ],
+      "territories": [ 5, 6, 1, 5, 6, 12 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 9, 2, 9 ],
+      "territories": [ 9, 6, 1, 5, 6, 12 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 9, 4, 9 ],
+      "territories": [ 9, 6, 1, 9, 6, 12 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 6, 9, 2 ],
+      "territories": [ 9, 10, 1, 9, 6, 12 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 8, 9, 4 ],
+      "territories": [ 9, 10, 1, 9, 10, 12 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 7, 4 ],
+      "territories": [ 9, 10, 1, 9, 10, 12 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 7, 3, 9 ],
+      "territories": [ 9, 10, 1, 9, 15, 12 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 5, 1, 9 ],
+      "territories": [ 9, 15, 1, 9, 15, 12 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 7, 9, 4 ],
+      "territories": [ 9, 15, 1, 13, 15, 12 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 5, 9, 2 ],
+      "territories": [ 13, 15, 1, 13, 15, 12 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 6, 1, 9 ],
+      "territories": [ 13, 15, 1, 13, 15, 15 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 5, 1 ],
+      "territories": [ 13, 15, 8, 13, 15, 15 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 2,
+      "actions": [ 7, 4, 9 ],
+      "territories": [ 13, 15, 8, 17, 15, 15 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 5, 2, 9 ],
+      "territories": [ 17, 15, 8, 17, 15, 15 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 7, 9, 3 ],
+      "territories": [ 17, 15, 8, 17, 18, 15 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 5, 9, 1 ],
+      "territories": [ 17, 18, 8, 17, 18, 15 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 7, 9, 2 ],
+      "territories": [ 17, 18, 8, 17, 18, 18 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 5, 2, 9 ],
+      "territories": [ 17, 18, 12, 17, 18, 18 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 2,
+      "actions": [ 7, 9, 4 ],
+      "territories": [ 17, 18, 12, 21, 18, 18 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 5, 9, 2 ],
+      "territories": [ 21, 18, 12, 21, 18, 18 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 7, 2, 9 ],
+      "territories": [ 21, 18, 12, 21, 21, 18 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 5, 1, 9 ],
+      "territories": [ 21, 21, 12, 21, 21, 18 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 7, 2, 9 ],
+      "territories": [ 21, 21, 12, 21, 21, 21 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 5, 2, 9 ],
+      "territories": [ 25, 21, 12, 21, 21, 21 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 2,
+      "actions": [ 8, 9, 3 ],
+      "territories": [ 25, 21, 12, 21, 26, 21 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 5, 9, 1 ],
+      "territories": [ 25, 24, 12, 21, 26, 21 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 7, 4, 9 ],
+      "territories": [ 25, 24, 12, 25, 26, 21 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 5, 9, 1 ],
+      "territories": [ 25, 24, 15, 25, 26, 21 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 7, 9, 2 ],
+      "territories": [ 25, 24, 15, 25, 26, 24 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 5, 1, 9 ],
+      "territories": [ 25, 27, 15, 25, 26, 24 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 7, 3, 9 ],
+      "territories": [ 25, 27, 15, 25, 29, 24 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 5, 1, 9 ],
+      "territories": [ 25, 27, 18, 25, 29, 24 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 7, 2, 9 ],
+      "territories": [ 25, 27, 18, 25, 29, 27 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 9, 5, 2 ],
+      "territories": [ 29, 26, 18, 25, 29, 27 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 9, 7, 4 ],
+      "territories": [ 29, 26, 18, 29, 28, 27 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 6, 9, 1 ],
+      "territories": [ 29, 29, 18, 29, 28, 27 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 7, 9, 2 ],
+      "territories": [ 29, 29, 18, 29, 31, 27 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 5, 9, 1 ],
+      "territories": [ 29, 29, 21, 29, 31, 27 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 7, 9, 2 ],
+      "territories": [ 29, 29, 19, 29, 31, 30 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 7, 1, 9 ],
+      "territories": [ 32, 28, 19, 29, 31, 30 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 5, 3, 9 ],
+      "territories": [ 32, 28, 19, 32, 30, 30 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 6, 1, 9 ],
+      "territories": [ 32, 28, 24, 32, 30, 27 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 7, 3 ],
+      "territories": [ 32, 28, 19, 32, 30, 32 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 6, 1, 9 ],
+      "territories": [ 32, 31, 19, 32, 30, 32 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 8, 3, 9 ],
+      "territories": [ 32, 31, 19, 32, 35, 32 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 6, 9, 2 ],
+      "territories": [ 33, 31, 19, 32, 35, 32 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 5 ],
+      "territories": [ 33, 31, 19, 32, 35, 32 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 6, 9, 2 ],
+      "territories": [ 33, 35, 19, 32, 35, 31 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 7, 2, 9 ],
+      "territories": [ 33, 35, 15, 32, 35, 35 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 5, 2, 9 ],
+      "territories": [ 34, 35, 15, 32, 35, 35 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 8, 9, 3 ],
+      "territories": [ 34, 35, 14, 32, 38, 35 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [  ],
+      "territories": [ 34, 35, 14, 32, 38, 35 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 5 ],
+      "territories": [ 34, 35, 14, 32, 38, 35 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 6, 1, 9 ],
+      "territories": [ 34, 39, 14, 32, 38, 33 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 2,
+      "actions": [ 8, 9, 1 ],
+      "territories": [ 34, 39, 11, 32, 38, 36 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 5, 9, 2 ],
+      "territories": [ 38, 38, 11, 32, 38, 36 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 8, 3, 9 ],
+      "territories": [ 38, 38, 9, 32, 41, 36 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [  ],
+      "territories": [ 38, 38, 9, 32, 41, 36 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 5 ],
+      "territories": [ 38, 38, 9, 32, 41, 36 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 6, 9, 2 ],
+      "territories": [ 38, 42, 9, 32, 41, 33 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 2,
+      "actions": [ 7, 2, 9 ],
+      "territories": [ 38, 42, 6, 32, 41, 36 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 5, 1, 9 ],
+      "territories": [ 38, 42, 9, 32, 38, 36 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 9, 8, 3 ],
+      "territories": [ 38, 42, 4, 32, 43, 36 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 5, 2, 9 ],
+      "territories": [ 42, 40, 4, 32, 43, 36 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 5 ],
+      "territories": [ 42, 40, 4, 32, 43, 36 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 5, 1, 9 ],
+      "territories": [ 42, 43, 4, 32, 43, 33 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 8, 9, 1 ],
+      "territories": [ 40, 43, 4, 32, 43, 36 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 5, 9, 2 ],
+      "territories": [ 44, 41, 4, 32, 43, 36 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 7, 4, 9 ],
+      "territories": [ 44, 41, 2, 32, 46, 35 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [  ],
+      "territories": [ 44, 41, 2, 32, 46, 35 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 8, 9, 4 ],
+      "territories": [ 44, 41, 2, 33, 46, 35 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 6, 9, 1 ],
+      "territories": [ 44, 43, 2, 33, 46, 33 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 2,
+      "actions": [ 8, 1, 9 ],
+      "territories": [ 41, 43, 2, 33, 46, 36 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 8, 1, 9 ],
+      "territories": [ 45, 42, 2, 33, 46, 36 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 8, 9, 3 ],
+      "territories": [ 45, 42, 1, 33, 48, 36 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [  ],
+      "territories": [ 45, 42, 1, 33, 48, 36 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 7, 4, 9 ],
+      "territories": [ 45, 41, 1, 34, 48, 36 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [ 6, 2, 9 ],
+      "territories": [ 45, 45, 1, 32, 48, 34 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 2,
+      "actions": [ 8, 9, 4 ],
+      "territories": [ 45, 42, 1, 35, 48, 34 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 5, 9, 1 ],
+      "territories": [ 46, 42, 1, 35, 48, 34 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 8, 9, 1 ],
+      "territories": [ 43, 42, 1, 35, 48, 37 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 1, 9 ],
+      "territories": [ 43, 42, 6, 35, 43, 37 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [  ],
+      "territories": [ 43, 42, 6, 35, 43, 37 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 5, 9, 1 ],
+      "territories": [ 43, 42, 9, 35, 40, 37 ]
+    },
+    {
+      "samurai": 2,
+      "responseTime": 1,
+      "actions": [ 5, 1, 9 ],
+      "territories": [ 40, 42, 9, 35, 40, 40 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 6, 2, 9 ],
+      "territories": [ 44, 40, 9, 35, 40, 40 ]
+    },
+    {
+      "samurai": 0,
+      "responseTime": 1,
+      "actions": [ 7, 4, 9 ],
+      "territories": [ 44, 38, 9, 37, 40, 40 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [  ],
+      "territories": [ 44, 38, 9, 37, 40, 40 ]
+    },
+    {
+      "samurai": 1,
+      "responseTime": 1,
+      "actions": [  ],
+      "territories": [ 44, 38, 9, 37, 40, 40 ]
+    }
+  ]
+}

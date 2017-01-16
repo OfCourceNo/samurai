@@ -1,0 +1,2 @@
+cd ..
+sh exec.sh

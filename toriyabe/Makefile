@@ -1,18 +1,44 @@
-all: managerDir playersDir
+CPPFLAGS= -std=c++11 -g -Wall
+CPP= c++
 
-TAGS: manager/*.cpp manager/*.hpp players/*.cpp players/*.hpp
-	etags $^
+COMMONOBJECTS= players.o
+RANDOMOBJECTS= ${COMMONOBJECTS} randomPlayer.o
+TIMEOUTOBJECTS=  ${COMMONOBJECTS} timeoutPlayer.o
+TOOACTIVEOBJECTS= ${COMMONOBJECTS} tooActivePlayer.o
+NONCHECKINGOBJECTS= ${COMMONOBJECTS} nonCheckingPlayer.o
+SELFOBJECTS= ${COMMONOBJECTS} selfPlayer.o
+PLANNINGOBJECTS= planning.o
+GREEDYOBJECTS= ${COMMONOBJECTS} ${PLANNINGOBJECTS} greedyPlayer.o
+SELFOBJECTS= ${COMMONOBJECTS} selfPlayer.o
+TARGET= randomPlayer greedyPlayer timeoutPlayer tooActivePlayer nonCheckingPlayer selfPlayer
+OBJECTS= ${RANDOMOBJECTS} ${TIMEOUTOBJECTS} ${TOOACTIVEOBJECTS} ${NONCHECKINGOBJECTS} ${PLANNINGOBJECTS} ${GREEDYOBJECTS} ${SELFOBJECTS}
 
-managerDir:
-	cd manager; make
+all: ${TARGET}
 
-playersDir:
-	cd players; make
+randomPlayer: ${RANDOMOBJECTS}
+	${CPP} ${CPPFLAGS} -o $@ $^
 
-tar: clean
-	tar zcvf ../samurai-software.tgz .
+timeoutPlayer: ${TIMEOUTOBJECTS}
+	${CPP} ${CPPFLAGS} -pthread -o $@ $^
+
+tooActivePlayer: ${TOOACTIVEOBJECTS}
+	${CPP} ${CPPFLAGS} -o $@ $^
+
+nonCheckingPlayer: ${NONCHECKINGOBJECTS}
+	${CPP} ${CPPFLAGS} -o $@ $^
+
+greedyPlayer: ${GREEDYOBJECTS}
+	${CPP} ${CPPFLAGS} -o $@ $^
+
+selfPlayer: ${SELFOBJECTS}
+	${CPP} ${CPPFLAGS} -o $@ $^
+-include ${OBJECTS:.o=.d}
+
+%.o: %.cpp
+	${CPP} -c ${CPPFLAGS} $*.cpp -o $*.o
+	${CPP} -MM ${CPPFLAGS} $*.cpp > $*.d
 
 clean:
-	rm -f TAGS *~
-	cd manager; make clean
-	cd players; make clean
+	rm -f ${TARGET}
+	rm -f *.o *.d
+	rm -rf *~ */*~ \#*\#

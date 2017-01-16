@@ -1,9 +1,10 @@
 #include "players.hpp"
 
 struct SelfPlayer: Player {
-    int attack(GameInfo& info, SamuraiState* samurai) {
+    int attack(GameInfo& info, SamuraiState& samurai) {
         int choicedAction = 0;
         int getField = 0;
+        Undo undo;
         for (int action = 1; action <= 4; action ++) {
             int territory, injury, hiding;
             info.tryAction(samurai, action, undo, territory, injury, hiding);
@@ -15,9 +16,9 @@ struct SelfPlayer: Player {
         return choicedAction;
     }
 
-    int move(GameInfo& info, SamuraiState* samurai) {
-        int x = samurai->x;
-        int y = samurai->y;
+    int move(GameInfo& info, SamuraiState& samurai) {
+        int x = samurai.x;
+        int y = samurai.y;
         if (field[x][y - 1] >= 3) {
             return 7;
         } else if (field[x - 1][y] >= 3) {
@@ -38,7 +39,7 @@ struct SelfPlayer: Player {
         samurai = &samuraiStates[0][choicedPlayer];
         cout << samurai->weapon;
         if (samurai->hidden == 0) {
-            action = attack(SamuraiState* samurai);  
+            action = attack(info,*samurai);  
             cout << ' ' << action;
             action += 4;
             cout << ' ' << action;
@@ -49,7 +50,7 @@ struct SelfPlayer: Player {
         } else {
             action = 9;
             cout << ' ' << action;
-            action = move(SamuraiState* samurai);  
+            action = move(info,*samurai);  
             cout << ' ' << action;
             cout << ' ' << action;
             cout << ' ' << action;

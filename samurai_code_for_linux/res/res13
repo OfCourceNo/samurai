@@ -1,6 +1,6 @@
 {
   "title": "",
-  "playerNames": [ "greedy", "no check"],
+  "playerNames": [ "yuusei", "kikuchi"],
   "initialResponseTimes": [ 0, 0 ],
   "plays": [
     {
@@ -77,7 +77,7 @@
     },
     {
       "samurai": 1,
-      "responseTime": 2,
+      "responseTime": 3,
       "actions": [ 5, 1, 9 ],
       "territories": [ 9, 15, 12, 1, 1, 1 ]
     },
@@ -101,7 +101,7 @@
     },
     {
       "samurai": 2,
-      "responseTime": 1,
+      "responseTime": 2,
       "actions": [ 5, 9, 1 ],
       "territories": [ 13, 15, 15, 1, 1, 1 ]
     },
@@ -113,7 +113,7 @@
     },
     {
       "samurai": 0,
-      "responseTime": 3,
+      "responseTime": 4,
       "actions": [ 5, 2, 9 ],
       "territories": [ 17, 15, 15, 1, 1, 1 ]
     },
@@ -125,7 +125,7 @@
     },
     {
       "samurai": 2,
-      "responseTime": 2,
+      "responseTime": 3,
       "actions": [ 5, 1, 9 ],
       "territories": [ 17, 15, 18, 1, 1, 1 ]
     },
@@ -137,7 +137,7 @@
     },
     {
       "samurai": 1,
-      "responseTime": 1,
+      "responseTime": 2,
       "actions": [ 5, 9, 1 ],
       "territories": [ 17, 18, 18, 1, 1, 1 ]
     },
@@ -149,7 +149,7 @@
     },
     {
       "samurai": 0,
-      "responseTime": 3,
+      "responseTime": 4,
       "actions": [ 5, 9, 2 ],
       "territories": [ 21, 18, 18, 1, 1, 1 ]
     },
@@ -161,7 +161,7 @@
     },
     {
       "samurai": 1,
-      "responseTime": 2,
+      "responseTime": 3,
       "actions": [ 5, 1, 9 ],
       "territories": [ 21, 21, 18, 1, 1, 1 ]
     },
@@ -173,7 +173,7 @@
     },
     {
       "samurai": 2,
-      "responseTime": 1,
+      "responseTime": 2,
       "actions": [ 5, 9, 1 ],
       "territories": [ 21, 21, 21, 1, 1, 1 ]
     },
@@ -185,7 +185,7 @@
     },
     {
       "samurai": 0,
-      "responseTime": 3,
+      "responseTime": 4,
       "actions": [ 5, 2, 9 ],
       "territories": [ 25, 21, 21, 1, 1, 1 ]
     },
@@ -197,7 +197,7 @@
     },
     {
       "samurai": 2,
-      "responseTime": 2,
+      "responseTime": 3,
       "actions": [ 5, 1, 9 ],
       "territories": [ 25, 21, 24, 1, 1, 1 ]
     },
@@ -209,7 +209,7 @@
     },
     {
       "samurai": 1,
-      "responseTime": 1,
+      "responseTime": 2,
       "actions": [ 5, 9, 1 ],
       "territories": [ 25, 24, 24, 1, 1, 1 ]
     },
@@ -221,7 +221,7 @@
     },
     {
       "samurai": 1,
-      "responseTime": 2,
+      "responseTime": 3,
       "actions": [ 5, 1, 9 ],
       "territories": [ 25, 27, 24, 1, 1, 1 ]
     },
@@ -245,7 +245,7 @@
     },
     {
       "samurai": 2,
-      "responseTime": 1,
+      "responseTime": 2,
       "actions": [ 5, 9, 1 ],
       "territories": [ 29, 26, 27, 1, 1, 1 ]
     },
@@ -257,7 +257,7 @@
     },
     {
       "samurai": 2,
-      "responseTime": 2,
+      "responseTime": 3,
       "actions": [ 5, 1, 9 ],
       "territories": [ 29, 26, 30, 1, 1, 1 ]
     },
@@ -269,7 +269,7 @@
     },
     {
       "samurai": 1,
-      "responseTime": 1,
+      "responseTime": 2,
       "actions": [ 6, 9, 1 ],
       "territories": [ 29, 29, 30, 1, 1, 1 ]
     },
@@ -293,7 +293,7 @@
     },
     {
       "samurai": 1,
-      "responseTime": 3,
+      "responseTime": 4,
       "actions": [ 6, 1, 9 ],
       "territories": [ 32, 31, 30, 1, 1, 1 ]
     },
@@ -329,7 +329,7 @@
     },
     {
       "samurai": 1,
-      "responseTime": 3,
+      "responseTime": 4,
       "actions": [ 6, 9, 2 ],
       "territories": [ 33, 35, 33, 1, 1, 1 ]
     },
@@ -341,7 +341,7 @@
     },
     {
       "samurai": 2,
-      "responseTime": 2,
+      "responseTime": 3,
       "actions": [ 5, 1, 9 ],
       "territories": [ 33, 35, 36, 1, 1, 1 ]
     },
@@ -353,7 +353,7 @@
     },
     {
       "samurai": 0,
-      "responseTime": 1,
+      "responseTime": 2,
       "actions": [ 5, 2, 9 ],
       "territories": [ 34, 35, 36, 1, 1, 1 ]
     },
@@ -365,7 +365,7 @@
     },
     {
       "samurai": 1,
-      "responseTime": 3,
+      "responseTime": 4,
       "actions": [ 5, 1, 9 ],
       "territories": [ 34, 39, 36, 1, 1, 1 ]
     },
@@ -377,7 +377,7 @@
     },
     {
       "samurai": 0,
-      "responseTime": 2,
+      "responseTime": 3,
       "actions": [ 5, 9, 2 ],
       "territories": [ 38, 38, 36, 1, 1, 1 ]
     },
@@ -389,7 +389,7 @@
     },
     {
       "samurai": 2,
-      "responseTime": 1,
+      "responseTime": 2,
       "actions": [ 6, 9, 1 ],
       "territories": [ 38, 38, 39, 1, 1, 1 ]
     },
@@ -401,7 +401,7 @@
     },
     {
       "samurai": 2,
-      "responseTime": 3,
+      "responseTime": 4,
       "actions": [ 5, 1, 9 ],
       "territories": [ 38, 38, 42, 1, 1, 1 ]
     },
@@ -413,7 +413,7 @@
     },
     {
       "samurai": 0,
-      "responseTime": 2,
+      "responseTime": 3,
       "actions": [ 5, 2, 9 ],
       "territories": [ 42, 36, 42, 1, 1, 1 ]
     },
@@ -425,7 +425,7 @@
     },
     {
       "samurai": 1,
-      "responseTime": 1,
+      "responseTime": 2,
       "actions": [ 6, 9, 1 ],
       "territories": [ 42, 38, 42, 1, 1, 1 ]
     },
@@ -437,7 +437,7 @@
     },
     {
       "samurai": 2,
-      "responseTime": 3,
+      "responseTime": 4,
       "actions": [ 6, 9, 1 ],
       "territories": [ 42, 38, 45, 1, 1, 1 ]
     },
@@ -449,7 +449,7 @@
     },
     {
       "samurai": 0,
-      "responseTime": 2,
+      "responseTime": 3,
       "actions": [ 5, 9, 2 ],
       "territories": [ 46, 36, 45, 1, 1, 1 ]
     },
@@ -461,7 +461,7 @@
     },
     {
       "samurai": 1,
-      "responseTime": 1,
+      "responseTime": 2,
       "actions": [ 6, 1, 9 ],
       "territories": [ 46, 37, 45, 1, 1, 1 ]
     },
@@ -473,7 +473,7 @@
     },
     {
       "samurai": 0,
-      "responseTime": 3,
+      "responseTime": 4,
       "actions": [ 8, 1, 9 ],
       "territories": [ 50, 36, 45, 1, 1, 1 ]
     },
@@ -485,7 +485,7 @@
     },
     {
       "samurai": 2,
-      "responseTime": 2,
+      "responseTime": 3,
       "actions": [ 6, 1, 9 ],
       "territories": [ 50, 36, 48, 1, 1, 1 ]
     },
@@ -497,7 +497,7 @@
     },
     {
       "samurai": 1,
-      "responseTime": 1,
+      "responseTime": 2,
       "actions": [ 6, 9, 1 ],
       "territories": [ 50, 38, 48, 1, 1, 1 ]
     },
@@ -545,7 +545,7 @@
     },
     {
       "samurai": 2,
-      "responseTime": 3,
+      "responseTime": 4,
       "actions": [ 6, 1, 9 ],
       "territories": [ 51, 40, 54, 1, 1, 1 ]
     },
@@ -557,7 +557,7 @@
     },
     {
       "samurai": 0,
-      "responseTime": 2,
+      "responseTime": 3,
       "actions": [ 6, 2, 9 ],
       "territories": [ 55, 38, 54, 1, 1, 1 ]
     },
@@ -569,7 +569,7 @@
     },
     {
       "samurai": 1,
-      "responseTime": 1,
+      "responseTime": 2,
       "actions": [ 6, 9, 1 ],
       "territories": [ 55, 40, 54, 1, 1, 1 ]
     },

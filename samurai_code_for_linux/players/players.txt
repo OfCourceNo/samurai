@@ -1,0 +1,6 @@
+players
+1 yuusei yuuseiPlayer $1
+2 mizumaru mizumaruPlayer $1
+3 kikuchi kikuchiPlayer $1
+4 yokoyoko yokoyokoPlayer $1
+5 toriyabe toriyabePlayer $1

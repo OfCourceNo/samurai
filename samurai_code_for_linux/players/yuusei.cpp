@@ -2,10 +2,10 @@
 #include <list>
 #include <utility>
 
-extern double territoryMerits;
-extern double selfTerritoryMerits;
-extern double hurtingMerits;
-extern double hidingMerits;
+double territoryMerits = 1;
+double selfTerritoryMerits = 0.3;
+double hurtingMerits = 0.1;
+double hidingMerits = 0.1;
 
 list<int> bestPlay;
 list<int> currentPlay;
